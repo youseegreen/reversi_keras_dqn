@@ -1,0 +1,16 @@
+env/*.log
+*.DS_Store
+
+# Python
+.python-version
+*.pyc
+/build
+/dist
+*.egg-info
+.eggs
+
+# Local
+log/*
+models/*
+!.gitkeep
+!*.example
