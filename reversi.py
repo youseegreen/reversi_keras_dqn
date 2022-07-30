@@ -33,7 +33,7 @@ class Reversi:
 
         # そのマスにおいた場合の取れる数
         n = self.put_piece(action, color, False)
-        if n == 0:
+        if n < 1:
             # 置けない場所に置こうとした
             self.reward = -1
             self.next_color = color # 次も同じ人の手番
